@@ -26,15 +26,11 @@
 
         img {
             width: 80%;
-            /* Adjusted width for a smaller image */
             max-width: 600px;
-            /* Ensures it doesn't get too large */
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             display: block;
-            /* Center the image */
             margin: 20px auto;
-            /* Centering */
         }
 
         p {
@@ -77,6 +73,25 @@
             margin: 0 10px 0 0;
         }
 
+        .info-box {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #388E3C;
+            color: white;
+            border-radius: 10px;
+        }
+
         @media (max-width: 600px) {
             h1 {
                 font-size: 1.8em;
@@ -90,6 +105,10 @@
                 font-size: 1em;
                 padding: 10px 15px;
             }
+
+            .info-box {
+                padding: 15px;
+            }
         }
     </style>
 </head>
@@ -97,20 +116,33 @@
 <body>
     <h1>The Green Team</h1>
 
-    <img src="./gyat.html" alt="Forest Image">
-    <p>The forest is a delicate place filled with beautiful plants and trees. Nature's true beauty is our job to
-        protect, as it provides us with our daily needs.</p>
+    <img src="your-image.jpg" alt="Forest Image">
+    <p>The forest is a delicate place filled with beautiful plants and trees. Nature's true beauty is our job to protect, as it provides us with our daily needs.</p>
     <p>Check out our products and advice for eco-friendly household or outdoor items.</p>
+
+    <div class="info-box">
+        <h2>Why Choose Eco-Friendly Products?</h2>
+        <p>Using eco-friendly products helps to reduce pollution and conserve natural resources. Join us in making a difference!</p>
+    </div>
 
     <button><a href="gogo.html">
             <h3>Tips for Beginner Plant Growers</h3>
-            <br>
-            <br>
-            <img style="width: 200px;" src="./gogo2.html" width="20%">
+            <img style="width: 200px;" src="gogo2.html" alt="Tips for Growers">
         </a></button>
     <button><a href="gogo3.html">
-            <h3>Most Beneficial and Rare Plants and Their Costs</h3><img   style="width: 200px;height: 240px;" src="hoho.html" width="46%">
+            <h3>Most Beneficial and Rare Plants and Their Costs</h3>
+            <img style="width: 200px; height: 240px;" src="hoho.html" alt="Rare Plants">
         </a></button>
+
+    <div class="info-box">
+        <h2>Join Our Community</h2>
+        <p>Become part of our community focused on sustainability and eco-friendliness. Share tips, advice, and experiences!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 The Green Team. All rights reserved.</p>
+        <p>Follow us on social media for more tips and updates!</p>
+    </footer>
 </body>
 
 </html>
